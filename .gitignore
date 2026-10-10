@@ -1,0 +1,62 @@
+# 
+# ===============================
+# Operating System Files
+# ===============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===============================
+# Python Cache & Bytecode
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual Environments
+# ===============================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ===============================
+# Logs, Temp & Telemetry
+# ===============================
+*.log
+scraper.log
+*.tmp
+
+# ===============================
+# Jupyter Notebook Checkpoints
+# ===============================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ===============================
+# Scraped Data & Checkpoints
+# (Prevent pushing heavy data files)
+# ===============================
+assets/
+*.parquet
+*.parquet.gzip
+*.pkl
+*.pickle
+checkpoints/
+data/
+downloads/
+
+# ===============================
+# IDEs & Local Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
