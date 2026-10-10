@@ -37,3 +37,4 @@ iterative-stratification
 
 # Graphs
 matplotlib
+seaborn
